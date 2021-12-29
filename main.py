@@ -122,7 +122,7 @@ class PClass(object):
         tilted_img = imutils.rotate(img, angle=10)
         cv2.imshow("Rotated", tilted_img)
 
-    def tiltRight(sel):
+    def tiltRight(self):
         tilted_img = imutils.rotate(img, angle=10)
         cv2.imshow("Rotated", tilted_img)
 
